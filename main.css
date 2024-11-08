@@ -22,9 +22,15 @@ a:focus, a:hover {
     transition-duration: 0.2s;
     transition-property: background;
 }
-
+/* Appropriate font choice and body font size */
 body {
-
+	font-family: 'Arial', sans-serif;
+    font-size: 16px;
+	/* Appropriate line height for readability */ 
+    line-height: 1.6; 
+    margin: 20px; 
+    padding: 20px;
+    background-color: #f4f4f4;
 }
 
 code {
