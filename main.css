@@ -34,7 +34,12 @@ body {
 }
 
 code {
-	
+	/* Monospaced font for code */
+	font-family: 'Courier New', Courier, monospace; 
+    font-size: 0.9em; /* smaller font size for code */
+    background-color: #eef; 
+    padding: 5px;
+    border-radius: 3px
 }
 
 h1, h2, h3 {
