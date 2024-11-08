@@ -13,20 +13,20 @@
 */
 
 a:link, a:visited {
-	color: blue;
+	color: darkblue;
 }
 
 a:focus, a:hover {
 	background-color: #ddddff;
-    border-radius: 5px;
+    border-radius: 6px;
     text-decoration: underline;
-    transition-duration: 0.2s;
+    transition-duration: 0.3s;
     transition-property: background;
 }
 /* Appropriate font choice and body font size */
 body {
 	font-family: 'Arial', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 	/* Appropriate line height for readability */ 
     line-height: 1.6; 
     margin: 20px; 
@@ -68,29 +68,28 @@ header {
 	text-align: center; 
     padding: 20px; 
 	 /* Dark background for contrast */
-    background-color: #333;
+    background-color: rgb(7, 7, 0);
     color: white;
 }
 
 main {
 	 /* Maximum width for readable line lengths */
-	max-width: 800px;
+	max-width: 700px;
     margin: 0 auto;
     padding: 20px;
 
 }
 p {
 	/* Paragraph styling */
-	margin-bottom: 15px;
+	margin-bottom: 16px;
 }
 
 #intro {
 	font-family: "Creepster", system-ui;
-	font-weight: 400;
+	font-weight: 300;
 	font-style: normal;
   
 }
-
 #how-does-it-work, #influence, #joke {
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
